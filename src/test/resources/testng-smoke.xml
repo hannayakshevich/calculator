@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke">
+    <test name="Test Divide">
+        <classes>
+            <class name="org.tms.tests.DivideValuesTest"></class>
+        </classes>
+    </test>
+
+    <test name="Test Multiply">
+        <classes>
+            <class name="org.tms.tests.MultiplyValuesTest"></class>
+        </classes>
+    </test>
+
+    <test name="Test Subtract">
+        <classes>
+            <class name="org.tms.tests.SubtractValuesTest"></class>
+        </classes>
+    </test>
+
+    <test name="Test Summarize">
+        <classes>
+            <class name="org.tms.tests.SummarizeValuesTest"></class>
+        </classes>
+    </test>
+
+</suite>
